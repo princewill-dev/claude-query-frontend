@@ -40,7 +40,7 @@
                 const textContent = textarea.value;
                 resultsContainer.textContent = 'Loading...'; // Display loading message 
         
-                fetch('http://127.0.0.1:8000/api/ask/', {
+                fetch('https://sm-generator-api.up.railway.app/api/ask/', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json' 
